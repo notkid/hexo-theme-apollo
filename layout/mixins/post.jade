@@ -49,6 +49,7 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
-        .toc-box
-            strong.toc-title 文章目录
-            !=toc(item.content)
+        .post-toc
+            h2.post-toc-title 文章目录
+            .post-toc-content
+                !=toc(item.content, {list_number: false})
