@@ -1,5 +1,20 @@
 .post {
     padding-top: 1em;
+    .toc-box {
+        background: #eee;
+        border: 1px solid #bbb;
+        border-radius: 10px;
+        margin: 1.5em 0 0.3em 1.5em;
+        padding: 1.2em 1em 0 1em;
+        max-width: 28%;
+        line-height: 1em;
+        font-size: 0.9em;
+        float: right;
+        .toc-title {
+            font-size: 120%;
+        }
+    }
+      
 }
 
 .post-block {
